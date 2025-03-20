@@ -35,3 +35,8 @@ button{
     width: 7rem;
     padding: 8px;
 }
+button:hover {
+    background-color: #a4beff;
+    transition: background-color 0.5s ease-out, height 0.5s ease-out, transform 0.5s ease-out;
+    transform: translateY(-5px);
+}
