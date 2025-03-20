@@ -7,7 +7,8 @@ const btn = document.getElementById("calc");
 function percentageCalc(){
     let tip = (tipInput.value / 100) * price.value;
     let total = Number(price.value) + Number(tip);
-    output.innerHTML = total;
-    console.log(total);
+    output.innerHTML = "Total Price: " + total;
+    price.value = "";
+    tipInput.value = "";
 }
 btn.addEventListener("click", () => percentageCalc());
