@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Tip Calculator</title>
-</head>
-<body>
-    <div class="container">
-        <div class="price-input">
-            <input type="number" name="price" id="">
-            <label for="price">Price: </label>
-        </div>
-        <div class="tip-perc">
-            <input type="number" name="tip" id="">
-            <label for="tip">Tip Percentage: </label>
-        </div>
+  </head>
+
+  <body class="flex">
+    <div class="container flex">
+      <div class="price-input pad">
+        <label for="price">Price: </label>
+        <br>
+        <input type="number" name="price" id="price" placeholder="$"/>
+      </div>
+      <div class="tip-perc pad">
+        <label for="tip">Tip Percentage: </label>
+        <br>
+        <input type="number" name="tip" id="tip-input" placeholder="%"/>
+      </div>
+      <button type="submit" id="calc">Calculate</button>
     </div>
-</body>
+    <script src="main.js"></script>
+  </body>
 </html>
