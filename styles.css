@@ -40,3 +40,8 @@ button:hover {
     transition: background-color 0.5s ease-out, height 0.5s ease-out, transform 0.5s ease-out;
     transform: translateY(-5px);
 }
+#output{
+    background-color: #a4beff;
+    font-size: 1.5rem;
+    width: 40%;
+}
